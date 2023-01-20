@@ -1,6 +1,7 @@
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.ktor)
+    id("owasp-configuration")
 }
 
 application {

@@ -9,4 +9,5 @@ repositories{
 
 dependencies{
     compileOnly(libs.kotlinJvmLib)
+    implementation(libs.owaspDependencyLib)
 }
