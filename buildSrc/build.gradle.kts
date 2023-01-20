@@ -10,4 +10,5 @@ repositories{
 dependencies{
     compileOnly(libs.kotlinJvmLib)
     implementation(libs.owaspDependencyLib)
+    implementation(libs.ktorPluginLib)
 }

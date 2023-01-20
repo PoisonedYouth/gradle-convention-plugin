@@ -12,6 +12,7 @@ ktorNetty = { module = "io.ktor:ktor-server-netty-jvm", version.ref = "ktorVersi
 ktorTest = { module = "io.ktor:ktor-server-tests-jvm", version.ref = "ktorVersion"}
 kotlinJvmLib =  { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinVersion"}
 owaspDependencyLib = { module = "org.owasp:dependency-check-gradle", version.ref = "owaspDependencyCheckVersion"}
+ktorPluginLib = { module = "io.ktor.plugin:plugin", version.ref = "ktorVersion"}
 
 [plugins]
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "versionCatalogUpdateVersion" }
