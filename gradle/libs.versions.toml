@@ -10,6 +10,7 @@ ktorCore = { module = "io.ktor:ktor-server-core-jvm", version.ref = "ktorVersion
 ktorAuth = { module = "io.ktor:ktor-server-auth-jvm", version.ref = "ktorVersion"}
 ktorNetty = { module = "io.ktor:ktor-server-netty-jvm", version.ref = "ktorVersion"}
 ktorTest = { module = "io.ktor:ktor-server-tests-jvm", version.ref = "ktorVersion"}
+kotlinJvmLib =  { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinVersion"}
 
 [plugins]
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "versionCatalogUpdateVersion" }
