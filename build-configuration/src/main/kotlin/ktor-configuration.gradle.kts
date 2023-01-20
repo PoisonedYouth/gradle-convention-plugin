@@ -1,5 +1,3 @@
-import org.gradle.kotlin.dsl.dependencies
-
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     id("io.ktor.plugin")
@@ -13,9 +11,9 @@ application {
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
 }
 
-dependencies{
-    implementation("io.ktor:ktor-server-core-jvm:2.2.1")
-    implementation("io.ktor:ktor-server-auth-jvm:2.2.1")
-    implementation("io.ktor:ktor-server-netty-jvm:2.2.1")
-    testImplementation("io.ktor:ktor-server-tests-jvm:2.2.1")
+dependencies {
+    implementation(libs.ktorCore)
+    implementation(libs.ktorAuth)
+    implementation(libs.ktorNetty)
+    testImplementation(libs.ktorTest)
 }
